@@ -7,6 +7,10 @@ buildscript {
     }
 }
 
+plugins {
+	id "com.gorylenko.gradle-git-properties" version "1.4.17"
+}
+
 apply plugin: 'java'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
