@@ -14,6 +14,7 @@ apply plugin: 'io.spring.dependency-management'
 bootJar {
     baseName = 'spring2app'
     version =  '0.1.0'
+    launchScript()
 }
 
 repositories {
